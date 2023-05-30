@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<form>
+    <fieldset>
+        <h3><legend>회원 가입</legend></h3>
+    <style>
+        h3:hover {color: red;}
+        h3:active {color: lightblue;}
+
+        .help {cursor: help;}
+        .pointer {cursor: pointer;}
+    </style>
+    <table>
+        <tr>
+            <td><label for="username">이름</label></td>
+            <td><input id="username" type="text" name="username" placeholder="이름을 입력해주세요."></td>
+        </tr>
+        <tr>
+            <td><label for="picture">사진</label></td>
+                <td><img src="https://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg"  width="100" height="100"></td>
+            </td>
+        </tr>
+        <tr>
+        <td>성별</td>
+        <td>
+            <input id="man" type="radio" name="gender" value="m">
+            <label for="man">남자</label>
+            <input id="woman" type="radio" name="gender" value="w" checked>
+            <label for="woman">여자</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="bday">생년월일(양력)</label></td>
+        <td><input id="bday" type="date" name="bday"></td>
+    </tr>
+    <tr>
+        <td><label for="bday">생년월일(음력)</label></td>
+        <td><input id="bday" type="date" name="bday"></td>
+    </tr>
+    <tr>
+        <td><label for="age" p class="help">나이</p></label></td>
+        <td><input id="age" type="number" min="0" max="100" value="20"></td>
+    </tr>
+    <tr>
+        <td><label for="number" p class="help">휴대폰 번호</p></td>
+        <td><input text="" style="width:50px">-<input text="" style="width:53px">-<input text="" style="width:53px"></style> </td>
+    </tr>
+    <tr>
+        <td><label for="email">e-mail (ID)</label></td>
+        <td><input id="email" type="email" name="email" placeholder="이메일을 입력해주세요." style="width:170px"></td>
+        <td>@</td>
+        <td>
+            <select>
+            <option>naver.com</option>
+            <option>gmail.com</option>
+            <option>daum.com</option>
+            <option>hanmail.net</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="password">비밀번호</label></td>
+        <td><input id="password" type="password" name="password" placeholder="비밀번호를 입력해주세요."></td>
+    </tr>
+    <tr>
+        <td><label for="Address" p class="help">주소</p></label></td>
+        <td><input id="Address" type="text" name="Address" placeholder="주소를 입력해주세요."></td>
+    </tr>
+        <td><label for="reason">가입 이유</label></td>
+        <td>
+        <select>
+            <option>학사과정 검색</option>
+            <option>자격증 취득</option>
+            <option>부모님, 선생님, 지인 추천</option>
+            <option>SNS 광고</option>
+            <option>진로에 도움</option>
+            <option>기타</option>
+        </select>
+        </td>
+    </tr>
+    </table>
+    <div id="google_recaptha">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <div class="g-recaptcha" data-sitekey="6LfOraUlAAAAALnDxDDYVAY6C23itprvv8ebe6kT"></div>
+    </div>
+    <input type="submit" p class="pointer" value="가입"></p>
+    </fieldset>
+</form>
+</body>
+</head>
+</html>
+<footer>
+    <p>
+    <span> <빅데이터과 2302551 박소현 제작> </span>            
+    </p>  
+</footer>
