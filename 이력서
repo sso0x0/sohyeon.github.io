@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>이력서</title>
+</head>
+<body>
+    <table border="2" width="800">
+        <tr>
+            <h1><ins><p style="text-align: center;">이&nbsp;력&nbsp;서</p></ins></h1>
+        </tr>
+        <p style="text-align: center;">
+            <a href="#성명">개인 신상</a>
+            &nbsp;
+            <a href="#학력사항">학력 사항</a>
+            &nbsp;
+            <a href="#자격면허">자격/면허</a>
+            &nbsp;
+            <a href="#경력사항">경력 사항</a>
+            &nbsp;
+        </p>
+        <style>
+            #성명 {
+                font-style: oblique;
+                background-color: #d5d5d5;
+            }
+            #지원자 {
+                font-style: italic;
+                background-color: #d5d5d5;
+            }
+            #연락처 {
+                font-style: normal;
+                background-color: #d5d5d5;
+            }
+            #이메일 {
+                background-color: #d5d5d5;
+            }
+            #생년월일 {
+                background-color: #d5d5d5;
+            }
+            #보훈대상 {
+                background-color: #d5d5d5;
+            }
+            #주소 {
+                background-color: #d5d5d5;
+            }
+            #학력사항 {
+                width: 110;
+                height: 110;
+                background-color: #d5d5d5;
+            } 
+            #자격면허 {
+                width: 110;
+                height: 110;
+                background-color: #d5d5d5;
+            } 
+            #경력사항 {
+                width: 110;
+                height: 100;
+                background-color: #d5d5d5;
+            }
+
+            #body {
+                background-color: white;
+                background-image: none;
+            }
+        </style>
+        <tr>
+            <td rowspan="6" width="110" height="130">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JdoMKl_cBoE-qqWZjn7OH-dvmZK73uVZ9w&usqp=CAU"  width="110" height="130">
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="3" id="성명"> 성명</th>
+            <td>(한글) : 박소현 </td>
+            <th rowspan="1" id="지원자">지원자</th>
+            <td>개발자</td>
+        </tr>
+        <tr>
+            <td>(한자) : 朴素贤 </td>
+            <th id="연락처">연락처</th>
+            <td>010-5737-6810</td>
+        </tr>
+        <tr>
+            <td>(영어) : Park So Hyeon </td>
+            <th id="이메일">e-mail</th>
+            <td>a58376810@gmail.com</td>
+        </tr>
+        <tr>
+            <th rowspan="1" id="생년월일">생년월일</th>
+            <td>2004.01.07</td>
+            <th rowspan="1" id="보훈대상">보훈 대상</th>
+            <td>대상(&nbsp;&nbsp;), 비대상(O)</td>
+        </tr>
+        <tr>
+            <th rowspan="1" id="주소">주소</th>
+            <td colspan="8">서울시 도봉구 00아파트 000동 000호</td>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="4" id="학력사항">학력 사항</th>
+            <th bgcolor = "D5D5D5">기간</th>
+            <th bgcolor = "D5D5D5">출신 학교</th>
+            <th bgcolor = "D5D5D5">전공</th>
+            <th bgcolor = "D5D5D5">학점</th>
+            <th bgcolor = "D5D5D5">졸업 여부</th>
+        </tr>
+        <tr>
+            <td>2023.03 ~</td>
+            <td><a href="https://www.hywoman.ac.kr/ko/index.do" title="hywoman">한양여자대학교</a></td>
+            <td>빅데이터과</td>
+            <td>3</td>
+            <td>재학</td>
+        </tr>
+        <tr>
+            <td>2020.03 ~ 2023.02</td>
+            <td>발안바이오과학고등학교</td>
+            <td>푸드스타일링과</td>
+            <td>X</td>
+            <td>졸업</td>
+        </tr>
+        <tr>
+            <td>2016.03 ~ 2019.02</td>
+            <td>중화중학교</td>
+            <td>X</td>
+            <td>X</td>
+            <td>졸업</td>
+        </tr>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="4" id="자격면허">자격/면허</th>
+            <th bgcolor="D5D5D5">자격증(면허명)</th>
+            <th bgcolor="D5D5D5">등급</th>
+            <th bgcolor="D5D5D5">취득년월일</th>
+            <th bgcolor="D5D5D5">발행기관</th>
+        </tr>
+        <tr>
+            <td>한글엑셀</td>
+            <td>B등급</td>
+            <td>2021.07.01</td>
+            <td>한국생산성본부</td>
+        </tr>
+        <tr>
+            <td>GTQ그래픽기술자격</td>
+            <td>2급</td>
+            <td>2021.11.11</td>
+            <td>한국생산성본부</td>
+        </tr>
+        <tr>
+            <td>SMAT 서비스경영</td>
+            <td>3급</td>
+            <td>2021.11.10</td>
+            <td>한국생산성본부</td>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="3" id="경력사항">경력 사항</th>
+            <th bgcolor="D5D5D5">기관명</th>
+            <th bgcolor="D5D5D5">기간</th>
+            <th bgcolor="D5D5D5">업무내용</th>
+        </tr>
+        <tr>
+            <td>한양여자대학교 빅데이터과</td>
+            <td>2023.03 ~ 2026.02</td>
+            <td>파이썬, HTML 강의</td>
+        </tr>
+        <tr>
+            <td>SBS컴퓨터아카데미 학원</td>
+            <td>2021.07.02 ~ 2021.07.21</td>
+            <td>C언어 강의</td>
+        </tr>
+        <td colspan="6">
+            &nbsp;
+            <p style = "text-align:center"> 위 기재 사항은 사실과 틀림이 없습니다.</p>
+        <br/>
+        <br/>
+        <p style = "text-align:center" >20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</p>
+        <br/>
+        <br/>
+        <p style = "text-align:right">(인)&nbsp;&nbsp;&nbsp;</p>
+        &nbsp;
+        </td>
+        </tr>
+    </table>
+    <footer>
+        <span><p style="text-align: center;">
+            <빅데이터과 2302551 박소현 제작>
+        </p></span>            
+    </footer>
+</body>
