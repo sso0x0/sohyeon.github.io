@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <footer>
+        <span><p style = "text-align:left;"><빅데이터과 2302551 박소현 제작></p></span>            
+    </footer>
+    <meta charset="UTF-8">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <div style="float:left;">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            #성명 {
+                font-style: oblique;
+                background-color: #d5d5d5;
+            }
+            #지원자 {
+                font-style: italic;
+                background-color: #d5d5d5;
+            }
+            #연락처 {
+                font-style: normal;
+                background-color: #d5d5d5;
+            }
+            #이메일 {
+                background-color: #d5d5d5;
+            }
+            #생년월일 {
+                background-color: #d5d5d5;
+            }
+            #보훈대상 {
+                background-color: #d5d5d5;
+            }
+            #주소 {
+                background-color: #d5d5d5;
+            }
+            #학력사항 {
+                width: 110;
+                height: 110;
+                background-color: #d5d5d5;
+            } 
+            #자격면허 {
+                width: 110;
+                height: 110;
+                background-color: #d5d5d5;
+            } 
+            #경력사항 {
+                width: 110;
+                height: 100;
+                background-color: #d5d5d5;
+            }
+
+            #body {
+                background-color: white;
+                background-image: none;
+            }
+            h3:hover {color: red;}
+            h3:active {color: lightblue;}
+
+            .help {cursor: help;}
+            .pointer {cursor: pointer;}
+        </style>
+    <table border="2" width="800">
+    <h1><ins><p style="text-align:center;">이&nbsp;력&nbsp;서</p></ins></h1>
+    <p style="text-align: center;">
+        <a href="#성명">개인 정보</a>
+        &nbsp;
+        <a href="#학력사항">학력 사항</a>
+        &nbsp;
+        <a href="#자격면허">자격/면허</a>
+        &nbsp;
+        <a href="#경력사항">경력 사항</a>
+        &nbsp;
+    </p>
+        <tr>
+            <td rowspan="6" width="110" height="100">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JdoMKl_cBoE-qqWZjn7OH-dvmZK73uVZ9w&usqp=CAU"  width="110" height="130">
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="3" id="성명"> 성명</th>
+            <td>(한글) : 박소현 </td>
+            <th rowspan="1" id="지원자">지원자</th>
+            <td>개발자</td>
+        </tr>
+        <tr>
+            <td>(한자) : 朴素贤 </td>
+            <th id="연락처">연락처</th>
+            <td>010-5737-6810</td>
+        </tr>
+        <tr>
+            <td>(영어) : Park So Hyeon </td>
+            <th id="이메일">e-mail</th>
+            <td>a58376810@gmail.com</td>
+        </tr>
+        <tr>
+            <th rowspan="1" id="생년월일">생년월일</th>
+            <td>2004.01.07</td>
+            <th rowspan="1" id="보훈대상">보훈 대상</th>
+            <td>대상(&nbsp;&nbsp;), 비대상(O)</td>
+        </tr>
+        <tr>
+            <th rowspan="1" id="주소">주소</th>
+            <td colspan="8">서울시 도봉구 00아파트 000동 000호</td>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="4" width="100" id="학력사항">학력 사항</th>
+            <th bgcolor = "D5D5D5">기간</th>
+            <th bgcolor = "D5D5D5">출신 학교</th>
+            <th bgcolor = "D5D5D5">전공</th>
+            <th bgcolor = "D5D5D5">학점</th>
+            <th bgcolor = "D5D5D5">졸업 여부</th>
+        </tr>
+        <tr>
+            <td>2023.03 ~</td>
+            <td><a href="https://www.hywoman.ac.kr/ko/index.do" title="hywoman">한양여자대학교</a></td>
+            <td>빅데이터과</td>
+            <td>3</td>
+            <td>재학</td>
+        </tr>
+        <tr>
+            <td>2020.03 ~ 2023.02</td>
+            <td>발안바이오과학고등학교</td>
+            <td>푸드스타일링과</td>
+            <td>X</td>
+            <td>졸업</td>
+        </tr>
+        <tr>
+            <td>2016.03 ~ 2019.02</td>
+            <td>중화중학교</td>
+            <td>X</td>
+            <td>X</td>
+            <td>졸업</td>
+        </tr>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="4" width="100" id="자격면허">자격/면허</th>
+            <th bgcolor="D5D5D5">자격증(면허명)</th>
+            <th bgcolor="D5D5D5">등급</th>
+            <th bgcolor="D5D5D5">취득년월일</th>
+            <th bgcolor="D5D5D5">발행기관</th>
+        </tr>
+        <tr>
+            <td>한글엑셀</td>
+            <td>B등급</td>
+            <td>2021.07.01</td>
+            <td>한국생산성본부</td>
+        </tr>
+        <tr>
+            <td>GTQ그래픽기술자격</td>
+            <td>2급</td>
+            <td>2021.11.11</td>
+            <td>한국생산성본부</td>
+        </tr>
+        <tr>
+            <td>SMAT 서비스경영</td>
+            <td>3급</td>
+            <td>2021.11.10</td>
+            <td>한국생산성본부</td>
+        </tr>
+    </table>
+    <table border="2" width="800">
+        <tr>
+            <th rowspan="3" width="100" id="경력사항">경력 사항</th>
+            <th bgcolor="D5D5D5">기관명</th>
+            <th bgcolor="D5D5D5">기간</th>
+            <th bgcolor="D5D5D5">업무내용</th>
+        </tr>
+        <tr>
+            <td>한양여자대학교 빅데이터과</td>
+            <td>2023.03 ~ 2026.02</td>
+            <td>파이썬, HTML 강의</td>
+        </tr>
+        <tr>
+            <td>SBS컴퓨터아카데미 학원</td>
+            <td>2021.07.02 ~ 2021.07.21</td>
+            <td>C언어 강의</td>
+        </tr>
+        <td colspan="6">
+            &nbsp;
+            <p style = "text-align:center"> 위 기재 사항은 사실과 틀림이 없습니다.</p>
+        <br/>
+        <br/>
+        <p style = "text-align:center" >20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</p>
+        <br/>
+        <br/>
+        <p style = "text-align:right">(인)&nbsp;&nbsp;&nbsp;</p>
+        &nbsp;
+        </td>
+        </tr>
+    </table>
+    </div>
+    <div style="float:center, right;">
+        <fieldset>
+            <table>
+            <h3>회원 가입</h3>
+                    <tr>
+                        <td><label for="username">이름</label></td>
+                        <td><input id="username" type="text" name="username" placeholder="이름을 입력해주세요."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="picture">사진</label></td>
+                            <td><img src="https://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg"  width="100" height="100"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>성별</td>
+                    <td>
+                        <input id="man" type="radio" name="gender" value="m">
+                        <label for="man">남자</label>
+                        <input id="woman" type="radio" name="gender" value="w" checked>
+                        <label for="woman">여자</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="bday">생년월일(양력)</label></td>
+                    <td><input id="bday" type="date" name="bday"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">생년월일(음력)</label></td>
+                    <td><input id="bday" type="date" name="bday"></td>
+                </tr>
+                <tr>
+                    <td><label for="age" p class="help">나이</p></label></td>
+                    <td><input id="age" type="number" min="0" max="100" value="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="number" p class="help">휴대폰 번호</p></td>
+                    <td><input text="" style="width:50px">-<input text="" style="width:53px">-<input text="" style="width:53px"></style> </td>
+                </tr>
+                <tr>
+                    <td><label for="email">e-mail (ID)</label></td>
+                    <td><input id="email" type="email" name="email" placeholder="이메일을 입력해주세요." style="width:170px"></td>
+                    <td>@</td>
+                    <td>
+                        <select>
+                        <option>naver.com</option>
+                        <option>gmail.com</option>
+                        <option>daum.com</option>
+                        <option>hanmail.net</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">비밀번호</label></td>
+                    <td><input id="password" type="password" name="password" placeholder="비밀번호를 입력해주세요."></td>
+                </tr>
+                <tr>
+                    <td><label for="Address" p class="help">주소</p></label></td>
+                    <td><input id="Address" type="text" name="Address" placeholder="주소를 입력해주세요."></td>
+                </tr>
+                    <td><label for="reason">가입 이유</label></td>
+                    <td>
+                    <select>
+                        <option>학사과정 검색</option>
+                        <option>자격증 취득</option>
+                        <option>부모님, 선생님, 지인 추천</option>
+                        <option>SNS 광고</option>
+                        <option>진로에 도움</option>
+                        <option>기타</option>
+                    </select>
+                    </td>
+                </tr>
+            </table>
+            <div id="google_recaptha">
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+                <div class="g-recaptcha" data-sitekey="6LfOraUlAAAAALnDxDDYVAY6C23itprvv8ebe6kT"></div>
+            </div>
+            <input type="submit" p class="pointer" value="가입"></p>
+        </fieldset>
+    </div>
+</body>
+</html>
